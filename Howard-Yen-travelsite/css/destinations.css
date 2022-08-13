@@ -43,21 +43,23 @@ body {
 
 .schedule-card_datetitle {
     margin: 18px 22px;
-    width: 80%;
+    width: 85%;
     border-bottom: 2px solid black;
 }
 
 .schedule-card_AllEvents {
     margin-top: 25px;
+    padding: 0px;
 }
 
 .schedule-card_event {
     background-color: #FEFAF5;
     font-size: 18px;
-    margin: 15px;
-    width: 75%;
+    margin: 15px 20px;
+    width: 195px;
     height: 25px;
     padding: 10px;
+    list-style: none;
 }
 
 /* Hawaii Container */

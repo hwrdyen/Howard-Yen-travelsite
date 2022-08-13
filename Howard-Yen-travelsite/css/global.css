@@ -65,6 +65,7 @@ a.header_itemlink:visited {
     flex-direction: row;
     gap: 100px;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .footer_contact, .footer_hours, .footer_social {
