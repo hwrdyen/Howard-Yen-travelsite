@@ -43,6 +43,9 @@ body {
 
 .header_link, .header_itemlink { 
     text-decoration: none;
+}
+
+.header_link, .header_listitem {
     transition: transform .2s;
 }
 
@@ -50,7 +53,7 @@ body {
     color: black;
 }
 
-.header_title:hover, .header_itemlink:hover {
+.header_title:hover, .header_listitem:hover {
     transform: scale(1.1);
 }
 
@@ -74,7 +77,7 @@ a.header_itemlink:visited {
     flex-direction: row;
     gap: 6.25rem;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding-bottom: 2.5rem;
 }
 
 .footer_contact, .footer_hours, .footer_social {
