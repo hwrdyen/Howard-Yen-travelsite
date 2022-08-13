@@ -1,0 +1,40 @@
+.GetStarted_container {
+    background-color: #f9cf9c;
+    text-align: center;
+    border: 2px solid #335576;
+    padding: 20px 10px;
+    color: black;
+}
+
+.GetStarted_form {
+    background-color: #f4dabb;
+    position: relative;
+    left: 320px;
+    width: 50%;
+}
+
+.GetStarted_formfield {
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 80%;
+  min-height: 2rem;
+}
+
+input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #0a0a23;
+    border-radius: 5px;
+    color: black;
+}

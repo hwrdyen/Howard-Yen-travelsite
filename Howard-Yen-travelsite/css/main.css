@@ -5,39 +5,45 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px 70px;
-    gap: 90px;
+    padding: 3.125rem 4.375rem;
+    gap: 5.625rem;
 }
 
 .first-container_left {
     position: relative;
-    top: 0px;
-    left: 10px;
-    width: 650px;
+    top: 0rem;
+    left: 0.625rem;
+    width: 40.625rem;
 }
 
 .first-container_header, .first-container_description, .first-container_button {
-    margin-top: 10px;
-    margin-bottom: 25px;
+    margin-top: 0.625rem;
+    margin-bottom: 1.5625rem;
 }
 
 .first-container_header {
-    width: 550px;
-    font-size: 38px;
+    width: 34.375rem;
+    font-size: 2.375rem;
 }
 
 .first-container_button {
     background-color: #DB7A4E;
     color: #FFFFFF;
     border: none;
-    border-radius: 50px;
-    padding: 10px 50px;
-    font-size: 15px;
+    border-radius: 3.125rem;
+    padding: 0.625rem 3.125rem;
+    font-size: 0.9375rem;
     font-weight: 400;
+    transition: transform .2s;
+}
+
+.first-container_button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .first-container_coverphoto {
-    width: 450px;
+    width: 28.125rem;
 }
 
 /* Second Container */
@@ -46,21 +52,28 @@
 }
 
 .second-container_header {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 70px;
+    margin-top: 3.125rem;
+    margin-bottom: 1.875rem;
+    margin-left: 4.375rem;
 }
 
 .second-container_list {
     display: flex;
-    gap: 45px;
+    gap: 2.8125rem;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
 }
 
 .second-container_card {
     position: relative;
     text-align: center;
+    width: 262px;
+    height: 405.333px;
+    transition: transform .2s;
+}
+
+.second-container_card:hover {
+    transform: scale(1.05);
 }
 
 .second-container_link {
@@ -68,17 +81,17 @@
 }
 
 .second-container_cardcover {
-    border-radius: 5px;
-    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid rgba(0,0,0,0.2);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px;
-    width: 260px;
-    height: 400px;
+    width: 16.25rem;
+    height: 25rem;
 }
 
 .second-container_carddescription {
     position: absolute;
-    bottom: 1px;
-    right: 21px;
+    bottom: 0.0625rem;
+    right: 1.3125rem;
 }
 
 .second-container_listitem {

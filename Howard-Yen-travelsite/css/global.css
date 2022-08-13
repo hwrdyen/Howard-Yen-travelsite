@@ -6,8 +6,8 @@
 
 /* Body */
 body {
-    width: 1280px;
-    margin: 0px;
+    width: 80rem;
+    margin: 0rem;
 }
 
 /* Header */
@@ -20,29 +20,38 @@ body {
 }
 
 .header_title {
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 
 .header_right {
     position: absolute;
-    top: 4px;
-    left: 870px;
+    top: 0.25rem;
+    left: 54.375rem;
 }
 
 .currentactive_page {
-    padding-bottom: 6px;
-    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 0.375rem;
+    border-bottom: 0.1875rem solid #DB7A4E;
 }
 
 .header_list {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: flex-end;
 }
 
 .header_link, .header_itemlink { 
     text-decoration: none;
+    transition: transform .2s;
+}
+
+.header_itemlink {
+    color: black;
+}
+
+.header_title:hover, .header_itemlink:hover {
+    transform: scale(1.1);
 }
 
 a.header_link:visited {
@@ -63,67 +72,73 @@ a.header_itemlink:visited {
     color: #335576;
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 6.25rem;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 3rem;
 }
 
 .footer_contact, .footer_hours, .footer_social {
-    height: 148.54px;
+    height: 9.2837rem;
 }
 
 .footer_contact {
     position: relative;
-    left: 50px;
+    left: 3.125rem;
 }
 
 .footer_hours {
     position: relative;
-    left: 40px;
+    left: 2.5rem;
 }
 
 .footer_social {
     position: relative;
-    left: 25px;
+    left: 1.5625rem;
 }
 
 .footer_title {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 25px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.5625rem;
 }
 
 .footer_subtitles {
     color: #DB7A4E;
-    margin-top: 0px;
-    font-size: 12px;
+    margin-top: 0rem;
+    font-size: 0.75rem;
 }
 
 .footer-contact_content, .footer-hours_content, .footer-social_content {
-    height: 86.67px;
+    height: 3rem;
 }
 
 .footer-hours_content {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .footer-social_content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .footer-social_instagramlogolink {
     position: relative;
-    left: 5px;
+    left: 0.3125rem;
+    height: 25.85px;
 }
 
 .footer-social_facebooklogolink {
     position: relative;
-    right: 8px;
+    right: 0.5rem;
+    height: 25.85px;
+}
+
+.footer-social_twitterlogolink {
+    height: 25.85px;
 }
 
 .footer-social_logoimg {
