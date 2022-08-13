@@ -1,26 +1,131 @@
-/* Body */
+/* All */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* Body */
+body {
+    width: 1280px;
+    margin: 0px;
 }
 
 /* Header */
 .header {
+    width: 100vw;
     background-color: #FFFFFF;
+    color: #335576;
+    display: flex;
+    align-items: center;
+}
+
+.header_title {
+    margin-left: 80px;
+}
+
+.header_right {
+    position: absolute;
+    top: 4px;
+    left: 870px;
+}
+
+.currentactive_page {
+    padding-bottom: 6px;
+    border-bottom: 3px solid #DB7A4E;
+}
+
+.header_list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.header_link, .header_itemlink { 
+    text-decoration: none;
+}
+
+a.header_link:visited {
     color: #335576;
 }
 
-.currentavticepage {
-    text-decoration: underline;
-    text-decoration-color: #DB7A4E;
+a.header_itemlink:visited {
+    color: black;
+}
 
+.header_listitem {
+    list-style: none;
 }
 
 /* Footer */
 .footer {
     background-color: #FEFAF5;
     color: #335576;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
 }
 
-.footersubtitles {
+.footer_contact, .footer_hours, .footer_social {
+    height: 148.54px;
+}
+
+.footer_contact {
+    position: relative;
+    left: 50px;
+}
+
+.footer_hours {
+    position: relative;
+    left: 40px;
+}
+
+.footer_social {
+    position: relative;
+    left: 25px;
+}
+
+.footer_title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.footer_subtitles {
     color: #DB7A4E;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.footer-contact_content, .footer-hours_content, .footer-social_content {
+    height: 86.67px;
+}
+
+.footer-hours_content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-social_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.footer-social_instagramlogolink {
+    position: relative;
+    left: 5px;
+}
+
+.footer-social_facebooklogolink {
+    position: relative;
+    right: 8px;
+}
+
+.footer-social_logoimg {
+    width: 38%;
+    height: auto;
 }

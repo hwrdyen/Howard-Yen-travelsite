@@ -1,0 +1,89 @@
+/* First Container */
+.first_container {
+    background-color: #FEFAF5;
+    color: #335576;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 70px;
+    gap: 90px;
+}
+
+.first-container_left {
+    position: relative;
+    top: 0px;
+    left: 10px;
+    width: 650px;
+}
+
+.first-container_header, .first-container_description, .first-container_button {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.first-container_header {
+    width: 550px;
+    font-size: 38px;
+}
+
+.first-container_button {
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.first-container_coverphoto {
+    width: 450px;
+}
+
+/* Second Container */
+.second_container {
+    color: #335576;
+}
+
+.second-container_header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.second-container_list {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.second-container_card {
+    position: relative;
+    text-align: center;
+}
+
+.second-container_link {
+    text-decoration: none;
+}
+
+.second-container_cardcover {
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px;
+    width: 260px;
+    height: 400px;
+}
+
+.second-container_carddescription {
+    position: absolute;
+    bottom: 1px;
+    right: 21px;
+}
+
+.second-container_listitem {
+    color: white;
+}
+
+
+

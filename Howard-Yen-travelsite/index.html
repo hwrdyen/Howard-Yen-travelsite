@@ -11,47 +11,68 @@
     <body>
         <!-- Header -->
         <div class="header">
-            <h3>Travel Site</h3>
+            <h3 class="header_title"><a href="./index.html" class="header_link">Travel Site</a></h3>
 
             <!-- Header Right Hand Side -->
-            <div>
-                <ul>
-                    <a href="./index.html"><li>Home</li></a>
-                    <a href="./pages/hawaii.html"><li>Hawaii</li></a>
-                    <a href="./pages/iceland.html"><li>Iceland</li></a>
-                    <a href="./pages/greece.html"><li>Greece</li></a>
+            <div class="header_right">
+                <ul class="header_list">
+                    <a href="./index.html" class="header_itemlink"><li class="currentactive_page header_listitem">Home</li></a>
+                    <a href="./pages/hawaii.html" class="header_itemlink"><li class="header_listitem">Hawaii</li></a>
+                    <a href="./pages/iceland.html" class="header_itemlink"><li class="header_listitem">Iceland</li></a>
+                    <a href="./pages/greece.html" class="header_itemlink"><li class="header_listitem">Greece</li></a>
                 </ul>
             </div>
 
         </div>
 
         <!-- First Container -->
-        <div>
+        <div class="first_container">
             <!-- First Container Left Hand Side -->
-            <div>
-                <h1>Travelling Comes With Endless Discoveries</h1>
-                <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-                <a href=""><button>Get Started</button></a>
+            <div class="first-container_left">
+                <h1 class="first-container_header">Travelling Comes With Endless Discoveries</h1>
+                <p class="first-container_description">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <a href="" class="first-container_buttonlink"><button class="first-container_button">Get Started</button></a>
             </div>
 
             <!-- First Container Right Hand Side -->
-            <div>
-                <img alt="travel around the world" src=""/>
+            <div class="first-container_right">
+                <img class="first-container_coverphoto" alt="travel around the world" src="./assets/images/hero.png"/>
             </div>
             
         </div>
 
         <!-- Second Container -->
-        <div>
-            <h2>Recommendations</h2>
+        <div class="second_container">
+            <h2 class="second-container_header">Recommendations</h2>
             
             <!-- Recommendations -->
-            <div>
-                <ul>
-                    <a href="./pages/hawaii.html"><li>Hawaii</li></a>
-                    <a href="./pages/iceland.html"><li>Iceland</a></li></a>
-                    <a href="./pages/greece.html"><li>Greece</a></li></a>
-                </ul>
+            <div class="second-container_recommend">
+                <div class="second-container_list">
+                    <!-- Hawaii Card -->
+                    <div class="second-container_card">
+                        <a href="./pages/hawaii.html" class="second-container_link">
+                            <img class="second-container_cardcover" alt="Hawaii" src="./assets/images/hawaii.jpg"/>
+                            <h2 class="second-container_carddescription second-container_listitem">Hawaii</h2>
+                        </a>
+                    </div>
+
+                    <!-- Iceland Card -->
+                    <div class="second-container_card">
+                        <a href="./pages/iceland.html" class="second-container_link">
+                            <img class="second-container_cardcover" alt="Iceland" src="./assets/images/iceland.jpg"/>
+                            <h2 class="second-container_carddescription second-container_listitem">Iceland</h2>
+                        </a>
+                    </div>
+
+                    <!-- Greece Card -->
+                    <div class="second-container_card">
+                        <a href="./pages/greece.html" class="second-container_link">
+                            <img class="second-container_cardcover" alt="Greece" src="./assets/images/greece.jpg"/>
+                            <h2 class="second-container_carddescription second-container_listitem">Greece</h2>
+                        </a>
+                    </div>
+                    
+                </div>
             </div>
             
         </div>
@@ -59,44 +80,60 @@
         <!-- Footer -->
         <div class="footer">
             <!-- Contact Footer -->
-            <div>
-                <h4>Contact</h4>
-                <p>EMAIL</p>
-                <p>info@travelsite.com</p>
+            <div class="footer_contact">
+                <h1 class="footer_title">Contact</h1>
+
+                <!-- Contact Footer Content -->
+                <div class="footer-contact_content">
+                    <p class="footer_subtitles">EMAIL</p>
+                    <p class="footer_description">info@travelsite.com</p>
+                </div>
+
             </div>
 
             <!-- Hours Footer -->
-            <div>
-                <h4>Hours</h4>
-                <!-- Monday to Friday -->
-                <div>
-                    <p>MONDAY - FRIDAY</p>
-                    <p>9:00 AM - 5:00 PM</p>
-                </div>
+            <div class="footer_hours">
+                <!-- Hours Footer Title -->
+                <h1 class="footer_title">Hours</h1>
 
-                <!-- Saturday -->
-                <div>
-                    <p>SATURDAY</p>
-                    <p>10:00 AM - 4:00 PM</p>
-                </div>
+                <!-- Hours Footer Content -->
+                <div class="footer-hours_content">
+                    <!-- Monday to Friday -->
+                    <div class="footer_weedays">
+                        <p class="footer_subtitles">MONDAY - FRIDAY</p>
+                        <p class="footer_description">9:00 AM - 5:00 PM</p>
+                    </div>
 
-                <!-- Sunday -->
-                <div>
-                    <p>SUNDAY</p>
-                    <p>Closed</p>
-                </div>
+                    <!-- Saturday -->
+                    <div class="footer_saturday">
+                        <p class="footer_subtitles">SATURDAY</p>
+                        <p class="footer_description">10:00 AM - 4:00 PM</p>
+                    </div>
 
+                    <!-- Sunday -->
+                    <div class="footer_sunday">
+                        <p class="footer_subtitles">SUNDAY</p>
+                        <p class="footer_description">Closed</p>
+                    </div>
+                </div>
+                
             </div>
 
             <!-- Social Footer -->
-            <div>
-                <h4>Social</h4>
-                <a href="https://www.instagram.com/"><img alt="Instagram" src="./assets/images/icon-instagram.png"></a>
-                <a href="https://www.facebook.com/"><img alt="Facebook" src="./assets/images/icon-facebook.png"></a>
-                <a href="https://twitter.com/"><img alt="Twitter" src="./assets/images/icon-twitter.png"></a>
+            <div class="footer_social">
+                <h1 class="footer_title">Social</h1>
+
+                <!-- Social Footer Content -->
+                <div class="footer-social_content">
+                    <a class="footer-social_instagramlogolink" href="https://www.instagram.com/"><img class="footer-social_logoimg" alt="Instagram" src="./assets/images/icon-instagram.png"></a>
+                    <a class="footer-social_facebooklogolink" href="https://www.facebook.com/"><img class="footer-social_logoimg" alt="Facebook" src="./assets/images/icon-facebook.png"></a>
+                    <a class="footer-social_twitterlogolink" href="https://twitter.com/"><img class="footer-social_logoimg" alt="Twitter" src="./assets/images/icon-twitter.png"></a>
+                </div>
+                
             </div>
 
         </div>
 
     </body>
+
 </html>

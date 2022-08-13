@@ -1,0 +1,67 @@
+/* Global */
+body {
+    margin: 0px;
+}
+
+.card_container {
+    position: relative;
+}
+
+.card-container_cover {
+    width: 100vw;
+    height: 700px;
+    object-fit: cover;
+    object-position: 47% 53%;
+}
+
+.card-container_title {
+    position: absolute;
+    top: 20px;
+    left: 88px;
+    font-size: 70px;
+    color: white;
+}
+
+/* Schedule Card */
+.card-container_schedule {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: absolute;
+    top: 200px;
+    left: 235px;
+}
+
+.schedule_card {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+.schedule-card_datetitle {
+    margin: 18px 22px;
+    width: 80%;
+    border-bottom: 2px solid black;
+}
+
+.schedule-card_AllEvents {
+    margin-top: 25px;
+}
+
+.schedule-card_event {
+    background-color: #FEFAF5;
+    font-size: 18px;
+    margin: 15px;
+    width: 75%;
+    height: 25px;
+    padding: 10px;
+}
+
+/* Hawaii Container */
+
+/* Greece Container */
+
+/* Iceland Container */
